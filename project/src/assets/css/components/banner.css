@@ -1,0 +1,30 @@
+.banner {
+  position: relative;
+  background-color: black;
+  z-index: 100;
+}
+.banner-img {
+  width: 100%;
+}
+.banner-img img {
+  width: 100%;
+}
+.banner-content {
+  /* width: 500px; */
+  height: 200px;
+
+  position: absolute;
+  right: 90px;
+  bottom: 80px;
+
+  text-align: right;
+  color: aliceblue;
+  font-weight: 800;
+}
+.banner-content .content {
+  margin-top: 40px;
+}
+.banner:hover .banner {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
