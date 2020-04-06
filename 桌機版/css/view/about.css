@@ -1,0 +1,79 @@
+/* banner--------------------------------- */
+.banner {
+  position: relative;
+}
+
+.banner .pic {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.banner .content {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  transform: translateY(50%);
+
+  width: 70%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+  text-align: center;
+
+  background-color: rgba(236, 240, 241, 0.75);
+
+
+}
+
+.banner .paragraph {
+  width: 40%;
+  margin: 0 auto;
+}
+
+/* -----shortBanner */
+.short-banner h1 {
+  text-align: center;
+}
+
+/* -----------Section--------- */
+.section {
+  display: flex;
+}
+/* --------------sectionImg----------- */
+.section .pic {
+  width: 60%;
+  /* order: 2; */
+}
+
+.section .pic img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.section .content {
+  flex: 1;
+
+  display: flex;
+}
+
+.section .main {
+  width: 80%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-content: flex-start; */
+  /* text-align: right; */
+}
+
+.section:nth-child(2n+1) .pic {
+  order: 2;
+}
+
+.section:nth-child(2n) .content h1 {
+  text-align: right;
+}

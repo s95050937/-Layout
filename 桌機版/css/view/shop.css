@@ -1,0 +1,69 @@
+.Intro-section {
+  display: flex;
+}
+
+.Intro-section .img {
+  width: 45%;
+
+}
+
+.Intro-section .img img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.Intro-section .content {}
+
+.Intro-section .Btn {
+  border: 1px solid black;
+}
+
+/* ---------------------Goods------------------------- */
+.goods-section {
+  width: 100%;
+  display: flex;
+}
+.goods-item {
+  margin: 30px;
+}
+
+.goods-section .pic {
+  width: 100%;
+}
+
+.goods-section .pic img {
+  width: 100%;
+}
+
+.goods-section .text {
+  display: flex;
+  flex-direction: column;
+
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.goods-section .title {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.goods-section .content {
+  width: 60%;
+  margin: 0 auto;
+
+}
+
+.goods-section .btn-area {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.goods-section .btn-area .btn {
+  width: 45%;
+}
+
+
+

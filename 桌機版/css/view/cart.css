@@ -1,0 +1,53 @@
+.cart-main {}
+
+.cart-main .title {
+  text-align: center;
+}
+
+.cart-main .wrapper {
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.cart-main .invoice {
+  width: 87%;
+  margin: 0 auto;
+
+
+  height: 900px;
+}
+
+
+/* ----------------final------------------ */
+.cart-final {
+  width: 85%;
+  margin: 0 auto;
+
+  background-color: #ddd;
+}
+
+.cart-final .wrapper {
+  width: 87%;
+  margin: 0 auto;
+
+}
+
+.cart-final .section {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ---------------btnArea-------------- */
+
+.cart-btn-area {
+  width: 85%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-btn-area .btn {
+  width: 47%;
+}

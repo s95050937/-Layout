@@ -1,0 +1,222 @@
+/* -------------------------Banner---------------------- */
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.banner .content {
+  /* width: 100%; */
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.banner .main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.guide-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.guide-btn-item {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ddd;
+  background-color: black;
+}
+
+/* ---------------------ShopSection-------------------- */
+.swiper {
+  width: 100%;
+  position: relative;
+
+  align-items: center;
+}
+
+.shope-section .left {
+  width: 55%;
+  padding: 30%;
+}
+
+.shope-section .img {
+  width: 45%;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  z-index: -1;
+}
+
+.shope-section .img img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.shope-section .content {
+  width: 90%;
+}
+
+/* .content img {
+    position: absolute;
+    right: 0;
+
+  } */
+
+
+  /* ---------------ShareSection----------------- */
+.share-section .content {
+  width: 90%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.share-section .btnArea {
+  width: 100%;
+  margin: 30px 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+.share-section .btn {
+  width: 15%;
+}
+
+
+.share-section .share-item {
+  width: 30%;
+
+  position: relative;
+}
+
+.share-section .pic {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.share-section .item-content {
+  width: 100%;
+  height: 75%;
+
+  position: absolute;
+  bottom: 0;
+
+  background-color: rgba(236, 240, 241, 0.288);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.share-section .btn {
+  width: 40%;
+  margin: 0 auto;
+
+  border: 1px solid black;
+  background-color: rgba(236, 240, 241, 0);
+  /* opacity: 0; */
+}
+
+/* -------------------------NewsSection------------------------ */
+
+.news-section .title {
+  width: 100%;
+
+}
+
+.news-section .title h1 {
+  text-align: center;
+}
+
+.news-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news-section .left,
+.news-section .right {
+  width: 50%;
+}
+
+.news-section .left img,
+.news-section .right img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.news-section .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+  text-align: center;
+}
+
+.news-section .btn-area {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.news-section .btn-more {
+  width: 30%;
+}
+
+
+/* -------------------AboutSection----------------- */
+.about-section {
+  display: flex;
+}
+
+.about-section .text {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.about-section .content {
+  width: 80%;
+  text-align: center;
+  /* height: 300px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-section .pic {
+  width: 50%;
+}
+
+.about-section .pic img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.about-section .btn-more {
+  width: 30%;
+
+}
+
+
+
+
