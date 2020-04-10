@@ -8,6 +8,7 @@
     content="width=device-width, initial-scale=1.0"
   >
   <title>Document</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link
     rel="stylesheet"
     href="./css/base.css"
@@ -17,6 +18,7 @@
     href="./css/global.css"
   >
   <link rel="stylesheet" href="./css/view/index.css">
+  
   <style>
 
   </style>
@@ -25,26 +27,26 @@
 <body>
   <!-- ----------------navBar----------------- -->
   <div class="nav-bar">
-    <div class="nav-bar-left">
-      <h1 class="nav-bar-item">喜之丹</h1>
-      <h1 class="nav-bar-item">訂購美麗</h1>
-      <h1 class="nav-bar-item">美麗分享</h1>
-      <h1 class="nav-bar-item">影音消息</h1>
-      <h1 class="nav-bar-item">關於喜之丹</h1>
-      <h1 class="nav-bar-item">購物車</h1>
-      <h1 class="nav-bar-item">會員登入</h1>
-    </div>
+    <ul class="nav-bar-left">
+      <li class="nav-bar-item"><a href="/index.html">喜之丹</a></li>
+      <li class="nav-bar-item"><a href="/shop.html">訂購美麗</a></li>
+      <li class="nav-bar-item"><a href="/share.html">美麗分享</a></li>
+      <li class="nav-bar-item"><a href="/news.html">影音消息</a></li>
+      <li class="nav-bar-item"><a href="/about.html">關於喜之丹</a></li>
+      <li class="nav-bar-item"><a href="/cart.html">購物車</a></li>
+      <li class="nav-bar-item"><a href="/member.html">會員登入</a></li>
+    </ul>
     <div class="nav-bar-right">
       123
     </div>
   </div>
   <!-- ------------------Banner----------------------- -->
   <div class="banner">
-    <img src="https://fakeimg.pl/1920x960/" >
+    <img src="img/首頁圖/首頁圖1.png" >
     <div class="content">
       <div class="main">
         <h1>標題標題標題標題</h1>
-        <p>內文內文內文內文內文內文內文內文內文內文內文內文內文</p>
+        <p>內文內文內文內文內文內文內文內文內文內文</p>
       </div>
       <div class="guide-btn">
         <div class="guide-btn-item"></div>
@@ -54,17 +56,24 @@
     </div>
   </div>
   <!-- ----------------ShopSection---------------------- -->
-  <div class="shope-section">
+  <div class="shop-section">
     <div class="swiper">
       <div class="left-icon">
         <img src="./img/angle-left.svg" alt="">
       </div>
       <div class="content">
         <div class="left">
-          
+          <div class="main">
+            <h1>標題標題標題標題</h1>
+            <p>內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文</p>
+            <div class="btn-area">
+              <button><span>加入購物車</span></button>
+              <button><span>立即訂購</span></button>
+            </div>
+          </div>
         </div>
         <div class="img">
-          <img src="https://fakeimg.pl/900x900/" alt="">
+          <img src="img/首頁圖/首頁圖2.png" alt="">
         </div>
         <div></div>
       </div>
@@ -74,6 +83,7 @@
     </div>
   </div>
   <!-- ----------------------ShareSection------------------ -->
+  <h1 class="share-section-title">標題標題標題</h1>
   <div class="share-section">
     <div class="swiper">
       <div class="left-icon">
@@ -81,33 +91,33 @@
       </div>
       <div class="content">
         <div class="share-item">
-          <img src="https://fakeimg.pl/500x300/" alt="" class="pic">
+          <img src="img/首頁圖/首頁圖3.png" alt="" class="pic">
           <div class="item-content">
-            <div>
+            <div class="txt">
               <h2>標題標題標題</h2>
               <h1>標題標題標題</h1>
             </div>
-            <btn color="black" class="btn">看更多</btn>
+            <button class="btn">看更多</button>
           </div>
         </div>
         <div class="share-item">
-          <img src="https://fakeimg.pl/500x300/" alt="" class="pic">
+          <img src="img/首頁圖/首頁圖3.png" alt="" class="pic">
           <div class="item-content">
-            <div>
+            <div class="txt">
               <h2>標題標題標題</h2>
               <h1>標題標題標題</h1>
             </div>
-            <btn color="black" class="btn">看更多</btn>
+            <button class="btn">看更多</button>
           </div>
         </div>
         <div class="share-item">
-          <img src="https://fakeimg.pl/500x300/" alt="" class="pic">
+          <img src="img/首頁圖/首頁圖3.png" alt="" class="pic">
           <div class="item-content">
-            <div>
+            <div class="txt">
               <h2>標題標題標題</h2>
               <h1>標題標題標題</h1>
             </div>
-            <btn color="black" class="btn">看更多</btn>
+            <button class="btn">看更多</button>
           </div>
         </div>
       </div>
@@ -116,7 +126,7 @@
       </div>
     </div>
     <div class="btnArea">
-      <btn-more class="btn">看更多</btn-more>
+      <button class="btn">看更多</button>
     </div>
     
   </div>
@@ -126,21 +136,21 @@
       <h1>標題標題標題</h1>
     </div>
     <div class="left">
-      <img src="https://fakeimg.pl/965x540/" alt="">
+      <img src="img/首頁圖/首頁圖4.png" alt="">
       <div class="content">
         <h1>內文內文內文內文內文內文</h1>
         <p>內文內文內文內文內文內文</p>
       </div>
     </div>
     <div class="right">
-      <img src="https://fakeimg.pl/965x540/" alt="">
+      <img src="img/首頁圖/首頁圖5.png" alt="">
       <div class="content">
         <h1>內文內文內文內文內文內文</h1>
         <p>內文內文內文內文內文內文</p>
       </div>
     </div>
     <div class="btn-area">
-      <button class="btn-more">看更多</button>
+      <button class="btn">看更多</button>
     </div>
   </div>
 
@@ -150,12 +160,12 @@
     <div class="text">
       <div class="content">
         <h1>標題標題標題</h1>
-        <p>內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文</p>
-        <button class="btn-more">看更多</button>
+        <p>內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文</p>
+        <button class="btn">看更多</button>
       </div>
     </div>
     <div class="pic">
-      <img src="https://fakeimg.pl/1150x1150/" alt="">
+      <img src="img/首頁圖/首頁圖6.png" alt="">
     </div>
   </div>
 
@@ -174,36 +184,15 @@
       </ul>
       <div class="section-2">
         <p>週一~週五</p>
-        <p>9.00am~12:00item2m/1:30~6:30item2m</p>
+        <p>9.00am~12:00pm/1:30~6:30pm</p>
         <p>電子信箱 : joyofred@joyofred.com</p>
         <p>客服電話 : 02 8522 8360</p>
         <p>常見問題</p>
       </div>
       <div class="section-3">
         <div class="footer-img">
-          <img src="">
+          <img src="img/首頁圖/首頁圖7.png">
         </div>
-        <div class="footer-banner">
-          <div class="">
-            <img src="">
-           <div class="footer-title">
-          <div>喜之丹</div>
-          <div>1695  按讚次數</div>
-        </div>
-      </div>
-      <div class="">
-        <button >
-          <img src="" width="18px" class="btn-img">
-          <div>說這個專業讚</div>
-        </button>
-      </div>
-      <div class="">
-        <button>
-          <img src="" alt="" width="18px" class="btn-img">
-          <div>來去逛逛</div>
-        </button>
-      </div>
-    </div>
       </div>
     </div>
   <div>

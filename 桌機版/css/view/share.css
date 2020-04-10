@@ -1,3 +1,14 @@
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+p {
+  font-size: 2.9rem;
+}
 /* ----------------banner-------------- */
 .banner .title {
   text-align: center;
@@ -31,17 +42,36 @@
 
 /* -----------------keywords---------- */
 .key-words {
-  width: 100%;
+  width: 70%;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+
+  margin: 130px auto;
+}
+.key-words h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #231815;
+
+  /* margin-right: 110px; */
 }
 
 .key-words .btn {
   border: 1px solid black;
   border-radius: 3px;
 
-  width: 12%;
+  /* width: 184px; */
+  font-size: 33px;
+
+  color: #060001;
+  background-color: #fff;
+  padding: 0 30px;
 }
 
 
@@ -69,13 +99,34 @@
 .article-item .pic {
   width: 52%;
 }
+.article-item .pic img {
+  width: 100%;
+}
 
 .article-item .content {
   flex: 1;
   display: flex;
   flex-direction: column;
 }
+.article-item .content h2 {
+  font-size: 3.2rem;
+  color: #231815;
+  font-weight: 300;
+}
+.article-item .content h1 {
+  color: #231815;
+  font-weight: 300;
+  font-size: 5.2rem;
+  line-height: 1.77;
 
+}
+.article-item .content p {
+  color: #231815;
+  font-weight: 300;
+  font-size: 2.6rem;
+  line-height: 2.33;
+
+}
 .article-item .main {
   width: 65%;
   margin-left: 50px;
@@ -91,13 +142,20 @@
 .article-nav {
   display: flex;
   justify-content: center;
-  width: 40%;
-  margin: 0 auto;
+  width: 60%;
+  margin: 128px auto;
+}
+.article-nav .btn {
+  margin: 0 3px;
+  border: 1px solid black;
+  padding: 0;
+  width: 65px;
+  height: 65px;
 }
 
 .article-nav .page-nav {
   display: flex;
-  flex: 6;
+  flex: 10;
 }
 
 .article-nav .page-nav li {
@@ -115,18 +173,16 @@
   /* margin-top: auto ; */
   display: block;
   margin: auto;
+
+  font-size: 2.6rem;
+  color: #070606;
 }
 
 .article-nav .btn {
   /* width: 10%; */
   /* height: 55px; */
   /* padding: 5%; */
-  margin: 0 3px;
-  border: 1px solid black;
-  /* flex: 1; */
-  width: 40px;
-  height: 40px;
-  padding: 0;
+  
 }
 
 

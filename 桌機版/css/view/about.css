@@ -1,3 +1,14 @@
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+p {
+  font-size: 2.9rem;
+}
 /* banner--------------------------------- */
 .banner {
   position: relative;
@@ -23,19 +34,34 @@
 
   text-align: center;
 
-  background-color: rgba(236, 240, 241, 0.75);
+  background-color: rgba(236, 240, 241, 0.5);
 
+  padding: 65px 0;
 
 }
+.banner h1 {
+  color: #040000;
 
+  margin-bottom: 44px;
+}
 .banner .paragraph {
   width: 40%;
   margin: 0 auto;
+
+  font-size: 2.5rem;
+  line-height: 54px;
+  font-weight: normal;
 }
 
 /* -----shortBanner */
+.short-banner .summary {
+  padding: 120px 0;
+}
 .short-banner h1 {
   text-align: center;
+  font-size: 4.2rem ;
+  line-height: 1.79;
+  color: #040000;
 }
 
 /* -----------Section--------- */
@@ -69,11 +95,58 @@
   /* align-content: flex-start; */
   /* text-align: right; */
 }
+.section .main h1 {
+  font-size: 4.9rem;
+  letter-spacing: 3.9px;
+  font-weight: 600;
+  color: #040000;
+}
+.section .main p {
+  font-size: 3.2rem;
+  letter-spacing: 2.4px;
+  font-weight: normal;
+  line-height: 2;
+  color: #040000;
 
+  margin-top: 70px;
+}
 .section:nth-child(2n+1) .pic {
   order: 2;
 }
 
 .section:nth-child(2n) .content h1 {
   text-align: right;
+}
+
+
+@media screen and (max-width: 1350px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 8px;
+  }
+  .banner .content {
+    padding: 15px 0;
+  }
+  .banner h1 {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+
+  /* padding: 10px; */
+  html {
+    font-size: 7px;
+  }
+  .banner .paragraph {
+    line-height: 30px;
+  }
 }

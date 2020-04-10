@@ -1,3 +1,15 @@
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+p {
+  font-size: 2.9rem;
+}
+
 .Intro-section {
   display: flex;
 }
@@ -12,7 +24,9 @@
   vertical-align: middle;
 }
 
-.Intro-section .content {}
+.Intro-section .content h1{
+  /* font-size: 3rem; */
+}
 
 .Intro-section .Btn {
   border: 1px solid black;
@@ -47,12 +61,16 @@
 .goods-section .title {
   width: 80%;
   margin: 0 auto;
+
+  font-size: 3rem;
 }
 
 .goods-section .content {
   width: 60%;
   margin: 0 auto;
 
+  font-size: 2.7rem;
+  line-height: 45px;
 }
 
 .goods-section .btn-area {
@@ -63,6 +81,14 @@
 
 .goods-section .btn-area .btn {
   width: 45%;
+
+  font-size: 2.5rem;
+  padding: 1rem 0;
+
+  color: #383838;
+  background-color: #ebc262;
+  border: none;
+  border-radius: 3.5%;
 }
 
 

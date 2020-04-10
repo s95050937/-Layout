@@ -1,3 +1,15 @@
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+p {
+  font-size: 2.9rem;
+}
+
 .member-form {
   width: 50%;
   margin: 0 auto;
