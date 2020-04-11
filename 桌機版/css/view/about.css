@@ -110,22 +110,13 @@ p {
 
   margin-top: 70px;
 }
-.section:nth-child(2n+1) .pic {
+.section:nth-child(2n) .pic {
   order: 2;
 }
 
-.section:nth-child(2n) .content h1 {
+.section:nth-child(2n+1) .content h1 {
   text-align: right;
 }
-
-
-@media screen and (max-width: 1350px) {
-  html {
-    font-size: 9px;
-  }
-}
-
-
 
 @media screen and (max-width: 1200px) {
   html {
@@ -137,7 +128,13 @@ p {
   .banner h1 {
     margin-bottom: 20px;
   }
-
+  .section .main {
+    width: 90%;
+  }
+  .section .main p {
+    line-height: 1.75;
+    margin-top: 35px;
+  }
 }
 
 @media screen and (max-width: 960px) {

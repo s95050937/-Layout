@@ -3,12 +3,33 @@ html {
 }
 
 h1 {
-  font-size: 4.8rem;
+  font-size: 4.5rem;
 }
-
+h3 {
+  font-size: 2.6rem;
+  font-weight: normal;
+  color: #020202;
+}
 p {
   font-size: 2.9rem;
+  font-weight: 100;
 }
+
+/* -------------------video-Intro----------------------- */
+.video-intro .title {
+  margin: 60px 0 37px 57px ;
+  font-size: 5.2rem;
+}
+.video-intro .pic {
+  width: 90%;
+  margin-bottom: 100px;
+}
+.video-intro img {
+  width: 100%;
+}
+
+
+/* -------------------video-section----------------------- */
 .video-section {
   width: 90%;
   margin: 0 auto;
@@ -43,6 +64,11 @@ p {
 
   padding: 50px 0;
 }
+.video-item .content p{
+  margin-top: 31px;
+  color: #020202;
+  font-size: 2rem;
+}
 
 .video-nav {
     display: flex;
@@ -50,74 +76,94 @@ p {
     width: 40%;
     margin: 0 auto;
   }
-  .page-nav {
-    display: flex;
-    flex: 6;
-  }
-  .page-nav li {
+.page-nav {
+  display: flex;
+  flex: 6;
+}
+.page-nav li {
 
-    width: 60%;
-    text-align: center;
-    
-    /* line-height: 40px; */
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  width: 60%;
+  text-align: center;
+  
+  /* line-height: 40px; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.page-nav span {
+  /* margin-top: auto ; */
+  display: block;
+  margin: auto;
+}
+.btn {
+  /* width: 10%; */
+  /* height: 55px; */
+  /* padding: 5%; */
+  margin: 0 3px;
+  border: 1px solid black;
+  /* flex: 1; */
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+/* -----------------videoNav----------------- */
+
+.video-nav {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 128px auto;
+}
+
+.video-nav .btn {
+  margin: 0 3px;
+  border: 1px solid black;
+  padding: 0;
+  width: 65px;
+  height: 65px;
+}
+
+.video-nav .page-nav {
+  display: flex;
+  flex: 10;
+}
+
+.video-nav .page-nav li {
+
+  width: 60%;
+  text-align: center;
+
+  /* line-height: 40px; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.video-nav .page-nav span {
+  /* margin-top: auto ; */
+  display: block;
+  margin: auto;
+
+  font-size: 2.6rem;
+  color: #070606;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 8px;
   }
-  .page-nav span {
-    /* margin-top: auto ; */
-    display: block;
-    margin: auto;
-  }
-  .btn {
-    /* width: 10%; */
-    /* height: 55px; */
-    /* padding: 5%; */
-    margin: 0 3px;
-    border: 1px solid black;
-    /* flex: 1; */
-    width: 40px;
-    height: 40px;
-    padding: 0;
-  }
-  /* -----------------videoNav----------------- */
   .video-nav {
-    display: flex;
-    justify-content: center;
-    width: 40%;
-    margin: 50px auto;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+
+  html {
+    font-size: 7px;
   }
 
-  .page-nav {
-    display: flex;
-    flex: 6;
-  }
-
-  .page-nav li {
-
-    width: 60%;
-    text-align: center;
-
-    /* line-height: 40px; */
-    display: flex;
-    justify-content: center;
-    align-content: center;
-  }
-
-  .page-nav span {
-    /* margin-top: auto ; */
-    display: block;
-    margin: auto;
-  }
-
-  .btn {
-    /* width: 10%; */
-    /* height: 55px; */
-    /* padding: 5%; */
-    margin: 0 3px;
-    border: 1px solid black;
-    /* flex: 1; */
-    width: 40px;
-    height: 40px;
-    padding: 0;
-  }
+}

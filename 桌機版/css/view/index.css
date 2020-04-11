@@ -318,8 +318,7 @@ p {
 }
 
 .about-section .content h1 {
-  margin: 50px 0 40px 0;
-  margin-bottom: 47px;
+  margin: 50px 0 47px 0;
 }
 
 .about-section .content p {
@@ -356,9 +355,11 @@ p {
   html {
     font-size: 8px;
   }
+  .about-section .content h1 {
+    margin: 0px 0 25px 0;
+  }
 }
 @media screen and (max-width: 960px) {
-  /* padding: 10px; */
   html {
     font-size: 7px;
   }

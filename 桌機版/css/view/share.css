@@ -9,9 +9,13 @@ h1 {
 p {
   font-size: 2.9rem;
 }
-/* ----------------banner-------------- */
+/* ---------------------banner---------------------- */
 .banner .title {
   text-align: center;
+  font-size: 3.4rem;
+  color: #020202;
+  font-weight: 500;
+  margin: 65px 0;
 }
 
 .banner .container {
@@ -28,19 +32,8 @@ p {
   vertical-align: middle;
 }
 
-.banner .tag {
-  width: 70px;
-  height: 251px;
-  background-color: red;
 
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-
-}
-
-/* -----------------keywords---------- */
+/* -----------------keywords--------------------------- */
 .key-words {
   width: 70%;
 
@@ -67,7 +60,7 @@ p {
   border-radius: 3px;
 
   /* width: 184px; */
-  font-size: 33px;
+  font-size: 3.3rem;
 
   color: #060001;
   background-color: #fff;
@@ -76,7 +69,7 @@ p {
 
 
 
-/* ---------artilclelist */
+/* ---------artilclelist------------------- */
 .article-list {
   width: 85%;
   margin: 35px auto;
@@ -116,7 +109,7 @@ p {
 .article-item .content h1 {
   color: #231815;
   font-weight: 300;
-  font-size: 5.2rem;
+  font-size: 4.8rem;
   line-height: 1.77;
 
 }
@@ -178,12 +171,30 @@ p {
   color: #070606;
 }
 
-.article-nav .btn {
-  /* width: 10%; */
-  /* height: 55px; */
-  /* padding: 5%; */
-  
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 8px;
+  }
+  .key-words {
+    width: 80%;
+  }
+  /* --------------article------------ */
+  .article-item .content h1 {
+    font-size: 4rem;
+  }
+  .article-item .main {
+    width: 85%;
+  }
 }
 
+@media screen and (max-width: 960px) {
+
+  /* padding: 10px; */
+  html {
+    font-size: 7px;
+  }
+
+}
 
 

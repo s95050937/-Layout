@@ -24,12 +24,25 @@ p {
   vertical-align: middle;
 }
 
-.Intro-section .content h1{
+.Intro-section .content-wrapper {
   /* font-size: 3rem; */
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Intro-section .content {
+  width: 60%;
+}
+.Intro-section .content p{
+  line-height: 64px;
 }
 
-.Intro-section .Btn {
+.Intro-section button {
   border: 1px solid black;
+  font-size: 2.9rem;
+  background-color: #fff;
+  padding: 10px 60px 10px 15px;
 }
 
 /* ---------------------Goods------------------------- */
@@ -56,6 +69,8 @@ p {
   align-content: center;
   justify-content: center;
   text-align: center;
+
+  margin: 75px 0;
 }
 
 .goods-section .title {
@@ -67,7 +82,7 @@ p {
 
 .goods-section .content {
   width: 60%;
-  margin: 0 auto;
+  margin: 40px auto;
 
   font-size: 2.7rem;
   line-height: 45px;
@@ -93,3 +108,24 @@ p {
 
 
 
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 8px;
+  }
+  .goods-section .text {
+    margin: 25px 0;
+  }
+  .goods-section .content {
+    width: 90%;
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 960px) {
+
+  /* padding: 10px; */
+  html {
+    font-size: 7px;
+  }
+
+}

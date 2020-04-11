@@ -28,10 +28,10 @@
 
 }
 .nav-bar-item a {
-  /* font-size: 2.3rem; */
+  font-size: 2.3rem;
 }
 .nav-bar-item+.nav-bar-item {
-  font-size: 18px;
+  font-size: 2.3rem;
 
 }
 
@@ -44,6 +44,35 @@
 
   display: flex;
 }
+
+/* -------------------small-nav-------------------- */
+
+.small-nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 200px;
+  right: 39px;
+
+  z-index: 100;
+}
+
+.small-nav a{
+  margin: 13px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -------------------swiper-------------------- */
 .swiper {
   display: flex;
@@ -94,6 +123,7 @@
 
   display: flex;
   /* flex-direction: ; */
+  
 }
 
 .footer .section-1 {
