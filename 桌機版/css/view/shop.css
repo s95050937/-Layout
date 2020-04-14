@@ -14,12 +14,19 @@ p {
   display: flex;
 }
 
-.Intro-section .img {
+.Intro-section .img-lg {
   width: 45%;
-
+}
+.Intro-section .img-lg img {
+  width: 100%;
+  vertical-align: middle;
 }
 
-.Intro-section .img img {
+.Intro-section .img-md {
+  width: 100%;
+  display: none;
+}
+.Intro-section .img-md img {
   width: 100%;
   vertical-align: middle;
 }
@@ -108,7 +115,7 @@ p {
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1500px) {
   html {
     font-size: 8px;
   }
@@ -127,5 +134,115 @@ p {
   html {
     font-size: 7px;
   }
+
+}
+@media screen and (max-width: 770px) {
+
+  /* padding: 10px; */
+  html {
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 2.9rem !important;
+  }
+  p {
+    font-size: 1.8rem !important;
+  }
+  button {
+    font-size: 1.8rem !important;
+  }
+  /* -------------Intro-section--------------- */
+  .Intro-section {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .img-lg {
+    display: none;
+  }
+  .img-md {
+    display: block !important;
+  }
+  .Intro-section .content-wrapper {
+    width: 100%;
+  }
+  .Intro-section .content {
+    width: 80%;
+    text-align: center;
+  }
+  .Intro-section .content h1 {
+    margin: 70px 0 30px 0;
+  }
+  .Intro-section .content p {
+    width: 65%;
+    margin: 0 auto 48px auto;
+    line-height: 32px;
+  }
+ 
+  /* ---------------goods-section--------------- */
+  .goods-section {
+    flex-wrap: wrap;
+  }
+  .goods-section .pic{
+    width: 95%;
+    margin: 0 auto;
+  }
+  .goods-item {
+    margin: 30px auto;
+  }
+  .goods-item .content {
+    width: 50%;
+    font-size: 2.7rem !important;
+  }
+  
+  .goods-section .btn-area {
+    width: 60%;
+    margin: 10px auto 0 auto;
+  }
+
+  .goods-section .btn-area .btn {
+    color: #f8f8f8;
+  }
+  
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 570px) {
+  .Intro-section .content {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .Intro-section .content h1 {
+    margin: 40px auto 30px auto;
+    width: 80%;
+  }
+  .Intro-section .content p {
+    margin-bottom: 25px;
+  }
+  .goods-section .btn-area .btn {
+    color: #f8f8f8;
+  }
+  .goods-item{
+    margin: 15px auto;
+  }
+  .goods-item .content {
+    width: 60%;
+  }
+  .goods-section .btn-area {
+    width: 80%;
+  }
+
+
+
+
+
+
+
+
+
 
 }

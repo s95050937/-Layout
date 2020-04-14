@@ -147,3 +147,36 @@ p {
     line-height: 30px;
   }
 }
+@media screen and (max-width: 770px) {
+
+  /* padding: 10px; */
+  html {
+    font-size: 6px;
+  }
+  .banner .paragraph {
+    font-size: 3rem;
+    width: 60%;
+  }
+  /* --------------section----------- */
+  .section {
+    flex-wrap: wrap;
+  }
+  .section .pic {
+    width: 100%;
+  }
+  .section:nth-child(2n) .pic {
+    order: 0;
+  }
+
+  .section .content {
+    margin: 90px 0;
+  }
+  .section .main .title {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .section .main p {
+    width: 80%;
+    margin: 70px auto 0;
+  }
+}

@@ -80,6 +80,10 @@ p {
   flex: 1;
   text-align: center;
 }
+.invoice .item-price-md {
+  flex: 1;
+  display: none;
+}
 .invoice .item .counter {
   flex: 0.75;
   display: flex;
@@ -95,8 +99,10 @@ p {
 }
 .invoice .counter .shop-num {
   font-size: 2.8rem;
-  
-
+}
+.invoice .item-sum-md {
+  flex: 1;
+  display: none;
 }
 /* ----------------cart-final--------------------- */
 .cart-final {
@@ -138,13 +144,15 @@ p {
   margin-bottom: 97px;
   border: none;
 }
-
 .cart-btn-area .btn:first-child {
-  background-color: #231815;
+  background-color: black;
 }
 .cart-btn-area .btn:last-child {
-  background-color: #e73418;
+  background-color: #c4143e;
 }
+
+
+
 
 
 
@@ -171,5 +179,16 @@ p {
   html {
     font-size: 7px;
   }
-
+  .item-price-lg {
+    display: none;
+  }
+  .item-price-md {
+    display: block !important;
+  }
+  .item-sum-lg {
+    display: none;
+  }
+  .item-sum-md {
+    display: block !important;
+  }
 }

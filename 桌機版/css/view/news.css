@@ -158,6 +158,10 @@ p {
     margin-top: 0;
     margin-bottom: 50px;
   }
+  .video-nav .btn {
+    width: 55px;
+    height: 55px;
+  }
 }
 
 @media screen and (max-width: 960px) {
@@ -165,5 +169,45 @@ p {
   html {
     font-size: 7px;
   }
+  .video-intro .pic {
+    margin-bottom: 70px;
+  }
+  /* item-------------------- */
+  .video-item {
+    margin: 0;
+  }
+  .video-item .content {
+    padding: 30px 0;
+  }
+  /* nav--------------------- */
+  .video-nav {
+    width: 75%;
+  }
 
+  .video-nav .btn {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+
+
+@media screen and (max-width: 770px) {
+  html {
+    font-size: 6px;
+  }
+  .video-section h3 {
+    font-size: 4rem !important;
+  }
+  .video-section p {
+    font-size: 3.5rem !important;
+  }
+  .video-intro .pic {
+    margin: 0 auto 70px;
+  }
+
+  .video-item {
+    width: 85%;
+    margin: 0 auto;
+  }
 }

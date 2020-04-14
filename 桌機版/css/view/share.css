@@ -9,6 +9,7 @@ h1 {
 p {
   font-size: 2.9rem;
 }
+
 /* ---------------------banner---------------------- */
 .banner .title {
   text-align: center;
@@ -109,7 +110,7 @@ p {
 .article-item .content h1 {
   color: #231815;
   font-weight: 300;
-  font-size: 4.8rem;
+  font-size: 4.6rem;
   line-height: 1.77;
 
 }
@@ -121,13 +122,17 @@ p {
 
 }
 .article-item .main {
-  width: 65%;
   margin-left: 50px;
 }
 
 .article-item .continue {
   margin: auto 0 20px 0;
   text-align: right;
+}
+.article-item .continue .continue-icon {
+  display: inline-block;
+  height: 21px;
+  vertical-align: middle;
 }
 
 
@@ -176,25 +181,139 @@ p {
   html {
     font-size: 8px;
   }
+  h1 {
+    font-size: 4.2px;
+  }
+  .banner .title {
+    margin: 45px 0;
+  }
   .key-words {
     width: 80%;
+    margin: 80px auto;
+
   }
   /* --------------article------------ */
+  
   .article-item .content h1 {
     font-size: 4rem;
   }
-  .article-item .main {
-    width: 85%;
+  .article-nav {
+    margin: 70px auto;
+  }
+  .article-nav .btn {
+    width: 55px;
+    height: 55px;
   }
 }
 
 @media screen and (max-width: 960px) {
-
-  /* padding: 10px; */
   html {
     font-size: 7px;
   }
+  .key-words {
+    width: 90%;
+  }
+  .article-nav {
+    width: 80%;
+  }
+  .article-nav .btn {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  html {
+    font-size: 6px;
+  }
+  .banner .title {
+    margin: 24px 0;
+  }
+  .banner .pic {
+    width: 95%;
+  }
+  .key-words {
+    margin: 24px auto 0 auto;
+  }
+  .key-words h1{
+    font-size: 2.5rem !important;
+    text-align: center;
+    line-height: 30px;
+  }
+  .key-words .btn{
+    font-size: 2.5rem !important;
+    padding: 6px 27px;
+  }
+  /* -------------article-item 矯正文字------------ */
+  .article-item h2{
+    font-size: 3rem !important;
+  }
+  .article-item h1{
+    font-size: 5rem !important;
+  }
+  .article-item p{
+    font-size: 2.3rem !important;
+  }
+  .article-item .continue{
+    font-size: 4rem !important;
+  }
+  /* -------------/article-item 矯正文字------------ */
+
+  /* ------------article-item 排版-------------- */
+  .article-item {
+    flex-direction: column;
+  }
+
+  .article-item .pic {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .article-item .main{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0;
+    margin-top: 53px;
+  }
+  .article-item .main h2 {
+    order: 0;
+    width: 10%;
+    flex-grow: 1;
+    line-height: 32px;
+
+    text-align: right;
+    padding-right: 30px;
+  }
+  .article-item p {
+    order: 1;
+    width: 35%;
+    flex-grow: 1;
+  }
+  .article-item .title {
+    order: 2;
+    text-align: center;
+    width: 100%;
+
+    margin: 50px auto;
+  }
+  .article-item .continue {
+    text-align: center;
+  }
+
+  .article-nav {
+    width: 100%;
+    
+  }
+
+
+
+
 
 }
+
+
+
+
+
 
 
